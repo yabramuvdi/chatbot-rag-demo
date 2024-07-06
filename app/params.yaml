@@ -2,3 +2,4 @@
 chunk_size: 1000
 overlap: 50
 embeddings_model: "text-embedding-ada-002"
+docs_distance_metric: "cos"

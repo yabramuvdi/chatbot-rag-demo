@@ -2,13 +2,9 @@ if __name__ == "__main__":
 
     print("Starting QA system for Transcripciones...")
 
-    from langchain.chat_models import ChatOpenAI
-    from langchain.embeddings import OpenAIEmbeddings
-    from langchain.vectorstores import Chroma, FAISS, DeepLake
+    from langchain_openai import OpenAIEmbeddings
+    from langchain.vectorstores import DeepLake
     from langchain.prompts import PromptTemplate
-    from langchain.chains import RetrievalQAWithSourcesChain, RetrievalQA
-    from langchain.chains.qa_with_sources import load_qa_with_sources_chain
-
     from dotenv import load_dotenv
     import os
     import pandas as pd
