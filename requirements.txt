@@ -1,0 +1,14 @@
+dash
+dash-core-components
+dash-bootstrap-components
+dash-html-components
+gunicorn
+pandas
+openai==0.28.1
+Flask
+python-dotenv
+langchain==0.2.6
+langchain-community==0.2.6
+deeplake
+thefuzz
+langchain-openai==0.1.14
